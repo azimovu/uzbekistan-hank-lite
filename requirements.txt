@@ -1,0 +1,5 @@
+# Core empirical and microsimulation pipeline (scripts 01, 02, 03, 04, 05, 07):
+#   Python 3.12+ standard library only (zero external packages required).
+#
+# Figure generation (script 06_make_figures.py):
+matplotlib>=3.7

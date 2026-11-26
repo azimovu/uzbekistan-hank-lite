@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this preprint, code, or derived outputs, please cite this work as below."
+title: "Hand-to-Mouth Households in Uzbekistan: Survey Forensics, Income Risk, and a Three-State Markov-TANK Calibration, 2018–2025"
+type: software
+version: "1.0.0"
+date-released: "2026-11-26"
+authors:
+  - family-names: "Azimov"
+    given-names: "Utkirbek"
+    affiliation: "Termez State University, Termez, Uzbekistan"
+    email: "azimov2398@gmail.com"
+    orcid: "https://orcid.org/0000-0002-8088-324X"
+repository-code: "https://github.com/azimovu/uzbekistan-hank-lite"
+license: "MIT"
+keywords:
+  - "hand-to-mouth households"
+  - "TANK"
+  - "HANK"
+  - "marginal propensity to consume"
+  - "income risk"
+  - "matching multiplier"
+  - "Uzbekistan"
+  - "L2CU"

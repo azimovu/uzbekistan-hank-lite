@@ -1,0 +1,17 @@
+# Licensed World Bank microdata (obtain from Catalog 6412; do not commit publicly)
+data/UZB_*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

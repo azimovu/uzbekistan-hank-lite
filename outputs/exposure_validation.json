@@ -1,0 +1,578 @@
+{
+  "linkage": {
+    "linked_hh_rounds": 118907,
+    "missing_hh_rounds": 2711,
+    "link_rate": 0.9777,
+    "mig_living_remittance_yes": 7295,
+    "mig_living_remittance_share": 0.0614,
+    "mig_remittance_nonzero_amount_rows": 8095,
+    "work_loss_by_period_counts": {
+      "r1_29": 1732,
+      "r30_42": 180,
+      "r43_82": 277
+    },
+    "work_loss_share_in_r1_29": 0.7912
+  },
+  "remittance_primary_use": {
+    "n_reports": 8096,
+    "top_uses": {
+      "Food": {
+        "n": 4047,
+        "share": 0.4999
+      },
+      "Improve/buy housing": {
+        "n": 2197,
+        "share": 0.2714
+      },
+      "Health": {
+        "n": 489,
+        "share": 0.0604
+      },
+      "Pay debt": {
+        "n": 335,
+        "share": 0.0414
+      },
+      "Savings": {
+        "n": 278,
+        "share": 0.0343
+      },
+      "Wedding": {
+        "n": 272,
+        "share": 0.0336
+      },
+      "Education": {
+        "n": 224,
+        "share": 0.0277
+      },
+      "Buying a car": {
+        "n": 144,
+        "share": 0.0178
+      }
+    }
+  },
+  "bank_card_ownership_weighted": {
+    "S": 0.7731,
+    "M": 0.7682,
+    "H": 0.7622
+  },
+  "feedback_noisy_dlogy_round_fe_w": {
+    "S_to_broad": {
+      "n": 42453,
+      "n_hh": 1955,
+      "beta": -0.0017,
+      "se_cl": 0.0038,
+      "t_cl": -0.45
+    },
+    "H_to_strict": {
+      "n": 17054,
+      "n_hh": 1785,
+      "beta": -0.0247,
+      "se_cl": 0.0069,
+      "t_cl": -3.57
+    }
+  },
+  "work_loss_by_lagged_state": {
+    "S": {
+      "work_loss_rate_w": 0.0107,
+      "work_loss_rate_r1_29_w": 0.0249,
+      "work_loss_rate_r30_82_w": 0.0028,
+      "n_wl1": 470,
+      "n_wl1_r30_82": 81,
+      "n_total": 44382,
+      "primary_round_fe_weighted": {
+        "dlogY_within_hh": {
+          "n": 41197,
+          "n_hh": 1940,
+          "beta": -0.1967,
+          "se_cl": 0.0391,
+          "t_cl": -5.03
+        },
+        "implied_pct_Y_drop_intensive": -0.1786,
+        "dP_pos_to_zero": {
+          "n": 42243,
+          "n_hh": 1971,
+          "beta": 0.0478,
+          "se_cl": 0.016,
+          "t_cl": 2.99
+        },
+        "implied_pct_Y_drop_total_incl_zero": -0.2178,
+        "dP_broad": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.2289,
+          "se_cl": 0.0259,
+          "t_cl": 8.83
+        },
+        "dP_M": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.026,
+          "se_cl": 0.0213,
+          "t_cl": 1.22
+        },
+        "dP_strict": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.2029,
+          "se_cl": 0.0227,
+          "t_cl": 8.92
+        },
+        "dP_finworse": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.1277,
+          "se_cl": 0.018,
+          "t_cl": 7.08
+        }
+      },
+      "robustness": {
+        "dP_broad_rdfe_uw": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.2248,
+          "se_cl": 0.0239,
+          "t_cl": 9.41
+        },
+        "dP_strict_rdfe_uw": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.191,
+          "se_cl": 0.0211,
+          "t_cl": 9.03
+        },
+        "dlogY_round_plus_hh_fe_w": {
+          "n": 41197,
+          "n_hh": 1940,
+          "beta": -0.2043,
+          "se_cl": 0.0422,
+          "t_cl": -4.84
+        },
+        "dP_broad_round_plus_hh_fe_w": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.1462,
+          "se_cl": 0.0264,
+          "t_cl": 5.53
+        },
+        "dP_strict_round_plus_hh_fe_w": {
+          "n": 44382,
+          "n_hh": 2024,
+          "beta": 0.1688,
+          "se_cl": 0.0229,
+          "t_cl": 7.37
+        },
+        "pretrend_dy_lag1_on_future_wl": {
+          "n": 40293,
+          "n_hh": 1884,
+          "beta": -0.1036,
+          "se_cl": 0.0364,
+          "t_cl": -2.85
+        },
+        "dP_strict_r1_29": {
+          "n": 16389,
+          "n_hh": 1558,
+          "beta": 0.2128,
+          "se_cl": 0.0251,
+          "t_cl": 8.47
+        },
+        "dP_strict_r30_82": {
+          "n": 27993,
+          "n_hh": 1574,
+          "beta": 0.1567,
+          "se_cl": 0.0543,
+          "t_cl": 2.88
+        },
+        "dP_broad_r30_82": {
+          "n": 27993,
+          "n_hh": 1574,
+          "beta": 0.2411,
+          "se_cl": 0.0595,
+          "t_cl": 4.05
+        },
+        "dlogY_r30_82": {
+          "n": 26247,
+          "n_hh": 1499,
+          "beta": -0.167,
+          "se_cl": 0.0571,
+          "t_cl": -2.93
+        },
+        "dP_strict_no_remit": {
+          "n": 41709,
+          "n_hh": 2007,
+          "beta": 0.2096,
+          "se_cl": 0.0232,
+          "t_cl": 9.02
+        },
+        "dP_strict_with_remit_exact": {
+          "beta": -0.0777,
+          "perm_p_two_sided": 0.3073,
+          "n_perm": 2000,
+          "n_total": 2673,
+          "n_treated_wl1": 12,
+          "strict_entries_among_treated": 0,
+          "raw_strict_rate_treated": 0.0
+        }
+      }
+    },
+    "M": {
+      "work_loss_rate_w": 0.0152,
+      "work_loss_rate_r1_29_w": 0.0408,
+      "work_loss_rate_r30_82_w": 0.0061,
+      "n_wl1": 768,
+      "n_wl1_r30_82": 240,
+      "n_total": 53498,
+      "primary_round_fe_weighted": {
+        "dlogY_within_hh": {
+          "n": 50462,
+          "n_hh": 2138,
+          "beta": -0.2647,
+          "se_cl": 0.0326,
+          "t_cl": -8.12
+        },
+        "implied_pct_Y_drop_intensive": -0.2326,
+        "dP_pos_to_zero": {
+          "n": 51452,
+          "n_hh": 2162,
+          "beta": 0.0524,
+          "se_cl": 0.0132,
+          "t_cl": 3.98
+        },
+        "implied_pct_Y_drop_total_incl_zero": -0.2728,
+        "dP_broad": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": 0.0321,
+          "se_cl": 0.0162,
+          "t_cl": 1.99
+        },
+        "dP_M": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": -0.1275,
+          "se_cl": 0.0195,
+          "t_cl": -6.53
+        },
+        "dP_strict": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": 0.1596,
+          "se_cl": 0.0193,
+          "t_cl": 8.26
+        },
+        "dP_finworse": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": 0.1565,
+          "se_cl": 0.0179,
+          "t_cl": 8.75
+        }
+      },
+      "robustness": {
+        "dP_broad_rdfe_uw": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": 0.0304,
+          "se_cl": 0.0141,
+          "t_cl": 2.15
+        },
+        "dP_strict_rdfe_uw": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": 0.1463,
+          "se_cl": 0.017,
+          "t_cl": 8.59
+        },
+        "dlogY_round_plus_hh_fe_w": {
+          "n": 50462,
+          "n_hh": 2138,
+          "beta": -0.2765,
+          "se_cl": 0.0334,
+          "t_cl": -8.28
+        },
+        "dP_broad_round_plus_hh_fe_w": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": 0.098,
+          "se_cl": 0.0169,
+          "t_cl": 5.8
+        },
+        "dP_strict_round_plus_hh_fe_w": {
+          "n": 53498,
+          "n_hh": 2195,
+          "beta": 0.1267,
+          "se_cl": 0.018,
+          "t_cl": 7.02
+        },
+        "pretrend_dy_lag1_on_future_wl": {
+          "n": 49574,
+          "n_hh": 2067,
+          "beta": 0.0048,
+          "se_cl": 0.0268,
+          "t_cl": 0.18
+        },
+        "dP_strict_r1_29": {
+          "n": 14457,
+          "n_hh": 1709,
+          "beta": 0.1876,
+          "se_cl": 0.0241,
+          "t_cl": 7.78
+        },
+        "dP_strict_r30_82": {
+          "n": 39041,
+          "n_hh": 1895,
+          "beta": 0.0989,
+          "se_cl": 0.0329,
+          "t_cl": 3.01
+        },
+        "dP_broad_r30_82": {
+          "n": 39041,
+          "n_hh": 1895,
+          "beta": -0.0137,
+          "se_cl": 0.028,
+          "t_cl": -0.49
+        },
+        "dlogY_r30_82": {
+          "n": 37474,
+          "n_hh": 1848,
+          "beta": -0.3139,
+          "se_cl": 0.0524,
+          "t_cl": -6.0
+        },
+        "dP_strict_no_remit": {
+          "n": 50074,
+          "n_hh": 2181,
+          "beta": 0.1602,
+          "se_cl": 0.0196,
+          "t_cl": 8.17
+        },
+        "dP_strict_with_remit_exact": {
+          "beta": 0.1179,
+          "perm_p_two_sided": 0.1464,
+          "n_perm": 2000,
+          "n_total": 3424,
+          "n_treated_wl1": 18,
+          "strict_entries_among_treated": 4,
+          "raw_strict_rate_treated": 0.2222
+        }
+      }
+    },
+    "H": {
+      "work_loss_rate_w": 0.0524,
+      "work_loss_rate_r1_29_w": 0.0756,
+      "work_loss_rate_r30_82_w": 0.0202,
+      "n_wl1": 888,
+      "n_wl1_r30_82": 135,
+      "n_total": 18369,
+      "primary_round_fe_weighted": {
+        "dlogY_within_hh": {
+          "n": 16613,
+          "n_hh": 1770,
+          "beta": -0.2469,
+          "se_cl": 0.0284,
+          "t_cl": -8.7
+        },
+        "implied_pct_Y_drop_intensive": -0.2188,
+        "dP_pos_to_zero": {
+          "n": 17141,
+          "n_hh": 1794,
+          "beta": 0.0775,
+          "se_cl": 0.0149,
+          "t_cl": 5.19
+        },
+        "implied_pct_Y_drop_total_incl_zero": -0.2793,
+        "dP_broad": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": 0.0833,
+          "se_cl": 0.0079,
+          "t_cl": 10.51
+        },
+        "dP_M": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": -0.0937,
+          "se_cl": 0.0136,
+          "t_cl": -6.9
+        },
+        "dP_strict": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": 0.177,
+          "se_cl": 0.016,
+          "t_cl": 11.08
+        },
+        "dP_finworse": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": 0.2022,
+          "se_cl": 0.0221,
+          "t_cl": 9.16
+        }
+      },
+      "robustness": {
+        "dP_broad_rdfe_uw": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": 0.0718,
+          "se_cl": 0.0078,
+          "t_cl": 9.16
+        },
+        "dP_strict_rdfe_uw": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": 0.1623,
+          "se_cl": 0.0157,
+          "t_cl": 10.31
+        },
+        "dlogY_round_plus_hh_fe_w": {
+          "n": 16613,
+          "n_hh": 1770,
+          "beta": -0.2685,
+          "se_cl": 0.0309,
+          "t_cl": -8.68
+        },
+        "dP_broad_round_plus_hh_fe_w": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": 0.0719,
+          "se_cl": 0.0089,
+          "t_cl": 8.09
+        },
+        "dP_strict_round_plus_hh_fe_w": {
+          "n": 18369,
+          "n_hh": 1830,
+          "beta": 0.1168,
+          "se_cl": 0.0151,
+          "t_cl": 7.75
+        },
+        "pretrend_dy_lag1_on_future_wl": {
+          "n": 16094,
+          "n_hh": 1704,
+          "beta": -0.0667,
+          "se_cl": 0.0269,
+          "t_cl": -2.48
+        },
+        "dP_strict_r1_29": {
+          "n": 10628,
+          "n_hh": 1344,
+          "beta": 0.1532,
+          "se_cl": 0.0169,
+          "t_cl": 9.05
+        },
+        "dP_strict_r30_82": {
+          "n": 7741,
+          "n_hh": 1346,
+          "beta": 0.2919,
+          "se_cl": 0.036,
+          "t_cl": 8.1
+        },
+        "dP_broad_r30_82": {
+          "n": 7741,
+          "n_hh": 1346,
+          "beta": 0.0822,
+          "se_cl": 0.018,
+          "t_cl": 4.56
+        },
+        "dlogY_r30_82": {
+          "n": 7235,
+          "n_hh": 1302,
+          "beta": -0.3013,
+          "se_cl": 0.0608,
+          "t_cl": -4.95
+        },
+        "dP_strict_no_remit": {
+          "n": 17360,
+          "n_hh": 1794,
+          "beta": 0.1788,
+          "se_cl": 0.0161,
+          "t_cl": 11.09
+        },
+        "dP_strict_with_remit_exact": {
+          "beta": -0.0095,
+          "perm_p_two_sided": 0.927,
+          "n_perm": 2000,
+          "n_total": 1009,
+          "n_treated_wl1": 22,
+          "strict_entries_among_treated": 15,
+          "raw_strict_rate_treated": 0.6818
+        }
+      }
+    }
+  },
+  "deposit_and_cash_saving": {
+    "deposit_past30d_rate_by_state": {
+      "S": 0.0121,
+      "M": 0.0655,
+      "H": 0.0594
+    },
+    "saving_next30d_rate_by_state": {
+      "S": 0.0479,
+      "M": 0.019,
+      "H": 0.0067
+    },
+    "saving_next30d_total_n": 3429,
+    "saving_next30d_state_composition": {
+      "S": {
+        "n": 2242,
+        "share": 0.6538
+      },
+      "M": {
+        "n": 1058,
+        "share": 0.3085
+      },
+      "H": {
+        "n": 129,
+        "share": 0.0376
+      }
+    },
+    "deposit_amount_n_pos_inc": 3389,
+    "amt_to_income_median": 0.3,
+    "amt_to_income_p10": 0.091,
+    "amt_to_income_p90": 0.85,
+    "cash_at_home_share": 0.9472
+  },
+  "staples_validation": {
+    "bread_7d_round_fe_cl_uw": {
+      "n": 18976,
+      "n_hh": 1071,
+      "beta": 0.0177,
+      "se_cl": 0.0103,
+      "t_cl": 1.72
+    },
+    "flour_7d_round_fe_cl_uw": {
+      "n": 28092,
+      "n_hh": 1794,
+      "beta": 0.0147,
+      "se_cl": 0.0062,
+      "t_cl": 2.38
+    },
+    "bread_7d_round_fe_cl_w": {
+      "n": 18976,
+      "n_hh": 1071,
+      "beta": 0.0236,
+      "se_cl": 0.011,
+      "t_cl": 2.15
+    },
+    "flour_7d_round_fe_cl_w": {
+      "n": 28092,
+      "n_hh": 1794,
+      "beta": 0.02,
+      "se_cl": 0.0065,
+      "t_cl": 3.05
+    },
+    "reporter_balance": {
+      "population_state_shares": {
+        "S": 0.3846,
+        "M": 0.4577,
+        "H": 0.1577
+      },
+      "flour_reporter_state_shares": {
+        "S": 0.3927,
+        "M": 0.451,
+        "H": 0.1562
+      },
+      "mean_real_logY_pop": 14.2775,
+      "mean_real_logY_flour": 14.2873
+    }
+  }
+}

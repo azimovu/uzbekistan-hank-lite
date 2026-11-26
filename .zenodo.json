@@ -1,0 +1,39 @@
+{
+  "title": "Hand-to-Mouth Households in Uzbekistan: Survey Forensics, Income Risk, and a Three-State Markov-TANK Calibration, 2018–2025 (Preprint and Replication Package)",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "version": "1.0.0",
+  "publication_date": "2026-11-26",
+  "creators": [
+    {
+      "name": "Azimov, Utkirbek",
+      "affiliation": "Termez State University, Termez, Uzbekistan",
+      "orcid": "0000-0002-8088-324X"
+    }
+  ],
+  "description": "Working-paper preprint and complete open-source Python replication package for 'Hand-to-Mouth Households in Uzbekistan: Survey Forensics, Income Risk, and a Three-State Markov-TANK Calibration, 2018–2025'. Uses 82 consecutive monthly waves of the World Bank Listening to Citizens of Uzbekistan (L2CU) phone panel (September 2018–June 2025) linked to official monthly CPI series from the Statistics Agency of Uzbekistan. Includes all replication scripts (01–07), derived aggregate JSON/CSV outputs, 300-DPI publication figures, and the LaTeX/PDF preprint. Note: raw World Bank L2CU v03 microdata (Catalog 6412) is not redistributed and must be obtained directly from the World Bank Microdata Library.",
+  "keywords": [
+    "hand-to-mouth households",
+    "TANK",
+    "marginal propensity to consume",
+    "income risk",
+    "matching multiplier",
+    "hidden Markov model",
+    "Uzbekistan",
+    "L2CU"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/azimovu/uzbekistan-hank-lite",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://microdata.worldbank.org/index.php/catalog/6412",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ]
+}

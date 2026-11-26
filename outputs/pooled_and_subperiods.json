@@ -1,0 +1,481 @@
+{
+  "sample": {
+    "hh_rounds": 121618,
+    "unique_hh": 2499,
+    "rounds": 82,
+    "date_start": "2018-09-24",
+    "date_end": "2025-06-16",
+    "cpi_start": 100.0,
+    "cpi_end": 207.58,
+    "early_month_start_rounds_day_le_10": 39
+  },
+  "pooled_weighted": {
+    "assets": 0.019,
+    "broad": 0.5994,
+    "broad_allimp": 0.6355,
+    "broad_unadj": 0.6724,
+    "broad_win": 0.6126,
+    "broad_withtook": 0.7415,
+    "cons": 0.1043,
+    "coping_core": 0.1878,
+    "coping_hard": 0.1688,
+    "fin_better_next": 0.2546,
+    "fin_worse": 0.0639,
+    "foodno": 0.137,
+    "loan": 0.087,
+    "m1": 0.4116,
+    "m2": 0.033,
+    "nosav": 0.5665,
+    "nosav_foodno": 0.0599,
+    "q5_agree": 0.8375,
+    "sav_no": 0.3463,
+    "savno_foodno": 0.0722,
+    "strict": 0.1549,
+    "took_sav": 0.0872,
+    "util": 0.0678
+  },
+  "pooled_unweighted": {
+    "assets": 0.0191,
+    "broad": 0.6154,
+    "broad_allimp": 0.6511,
+    "broad_unadj": 0.6853,
+    "broad_win": 0.6275,
+    "broad_withtook": 0.7531,
+    "cons": 0.1003,
+    "coping_core": 0.19,
+    "coping_hard": 0.1703,
+    "fin_better_next": 0.265,
+    "fin_worse": 0.0645,
+    "foodno": 0.1326,
+    "loan": 0.0906,
+    "m1": 0.4254,
+    "m2": 0.0323,
+    "nosav": 0.5831,
+    "nosav_foodno": 0.0586,
+    "q5_agree": 0.8274,
+    "sav_no": 0.3312,
+    "savno_foodno": 0.0691,
+    "strict": 0.1577,
+    "took_sav": 0.0857,
+    "util": 0.0753
+  },
+  "pooled_mean_income": {
+    "real_sep2018_som": 2130108,
+    "nominal_som": 3319789
+  },
+  "pooled_hh_clustered_se": {
+    "broad": {
+      "mean": 0.5994,
+      "se_cl": 0.0074
+    },
+    "strict": {
+      "mean": 0.1549,
+      "se_cl": 0.0045
+    },
+    "broad_win": {
+      "mean": 0.6126,
+      "se_cl": 0.0074
+    },
+    "broad_allimp": {
+      "mean": 0.6355,
+      "se_cl": 0.0075
+    },
+    "broad_unadj": {
+      "mean": 0.6724,
+      "se_cl": 0.0052
+    },
+    "broad_withtook": {
+      "mean": 0.7415,
+      "se_cl": 0.0049
+    },
+    "nosav": {
+      "mean": 0.5665,
+      "se_cl": 0.0077
+    },
+    "m1": {
+      "mean": 0.4116,
+      "se_cl": 0.0074
+    },
+    "m2": {
+      "mean": 0.033,
+      "se_cl": 0.0009
+    }
+  },
+  "subperiods_weighted": {
+    "preCOVID": {
+      "broad": 0.5605,
+      "broad_allimp": 0.6304,
+      "broad_unadj": 0.5885,
+      "broad_win": 0.5605,
+      "broad_withtook": 0.7559,
+      "cons": 0.228,
+      "coping_core": 0.3311,
+      "coping_hard": 0.3172,
+      "foodno": 0.0845,
+      "loan": 0.1195,
+      "m1": 0.2294,
+      "m2": 0.074,
+      "nosav": 0.4865,
+      "savno_foodno": 0.0267,
+      "strict": 0.2571,
+      "took_sav": 0.2082
+    },
+    "COVID": {
+      "broad": 0.6499,
+      "broad_allimp": 0.6675,
+      "broad_unadj": 0.6713,
+      "broad_win": 0.6499,
+      "broad_withtook": 0.7091,
+      "cons": 0.2044,
+      "coping_core": 0.2816,
+      "coping_hard": 0.2663,
+      "foodno": 0.1043,
+      "loan": 0.0921,
+      "m1": 0.3682,
+      "m2": 0.03,
+      "nosav": 0.6199,
+      "savno_foodno": 0.0214,
+      "strict": 0.2517,
+      "took_sav": 0.0488
+    },
+    "recovery": {
+      "broad": 0.5785,
+      "broad_allimp": 0.5838,
+      "broad_unadj": 0.6234,
+      "broad_win": 0.5785,
+      "broad_withtook": 0.6343,
+      "cons": 0.0557,
+      "coping_core": 0.1128,
+      "coping_hard": 0.0977,
+      "foodno": 0.1129,
+      "loan": 0.074,
+      "m1": 0.4657,
+      "m2": 0.0141,
+      "nosav": 0.5645,
+      "savno_foodno": 0.0458,
+      "strict": 0.0988,
+      "took_sav": 0.0158
+    },
+    "war": {
+      "broad": 0.5964,
+      "broad_allimp": 0.6017,
+      "broad_unadj": 0.7394,
+      "broad_win": 0.5964,
+      "broad_withtook": 0.7482,
+      "cons": 0.0426,
+      "coping_core": 0.1184,
+      "coping_hard": 0.0977,
+      "foodno": 0.209,
+      "loan": 0.0782,
+      "m1": 0.478,
+      "m2": 0.0149,
+      "nosav": 0.5815,
+      "savno_foodno": 0.1412,
+      "strict": 0.1036,
+      "took_sav": 0.0186
+    },
+    "late": {
+      "broad": 0.6197,
+      "broad_allimp": 0.6685,
+      "broad_unadj": 0.7231,
+      "broad_win": 0.6595,
+      "broad_withtook": 0.7917,
+      "cons": 0.0334,
+      "coping_core": 0.1218,
+      "coping_hard": 0.0966,
+      "foodno": 0.163,
+      "loan": 0.0728,
+      "m1": 0.4979,
+      "m2": 0.023,
+      "nosav": 0.5967,
+      "savno_foodno": 0.1027,
+      "strict": 0.0988,
+      "took_sav": 0.0838
+    }
+  },
+  "extrema_all_82_rounds": {
+    "broad": {
+      "min": 0.4989,
+      "min_round": 30,
+      "min_ym": "2021-02",
+      "max": 0.7365,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "broad_win": {
+      "min": 0.4989,
+      "min_round": 30,
+      "min_ym": "2021-02",
+      "max": 0.7365,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "broad_allimp": {
+      "min": 0.5052,
+      "min_round": 34,
+      "min_ym": "2021-06",
+      "max": 0.7546,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "aggmpc_pop": {
+      "min": 0.534,
+      "min_round": 30,
+      "min_ym": "2021-02",
+      "max": 0.7549,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "aggmpc_inc": {
+      "min": 0.4578,
+      "min_round": 79,
+      "min_ym": "2025-03",
+      "max": 0.7271,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "aggmpc_inc_win": {
+      "min": 0.4667,
+      "min_round": 10,
+      "min_ym": "2019-06",
+      "max": 0.7271,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "aggmpc_inc_allimp": {
+      "min": 0.5082,
+      "min_round": 30,
+      "min_ym": "2021-02",
+      "max": 0.746,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    }
+  },
+  "extrema_excl_break_windows": {
+    "n_clean_rounds": 72,
+    "broad": {
+      "min": 0.4989,
+      "min_round": 30,
+      "min_ym": "2021-02",
+      "max": 0.7365,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "aggmpc_pop": {
+      "min": 0.534,
+      "min_round": 30,
+      "min_ym": "2021-02",
+      "max": 0.7549,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    },
+    "aggmpc_inc": {
+      "min": 0.4667,
+      "min_round": 10,
+      "min_ym": "2019-06",
+      "max": 0.7271,
+      "max_round": 20,
+      "max_ym": "2020-04"
+    }
+  },
+  "forensic_food_past30d_r44_82": {
+    "Do not have any savings | food=No": {
+      "n": 3057,
+      "mean_real_y": 1524893,
+      "fin_worse": 0.3529,
+      "loan": 0.4571,
+      "cons_cut": 0.4176,
+      "fies_any_r49_82": 0.7024
+    },
+    "Do not have any savings | food=Yes": {
+      "n": 31317,
+      "mean_real_y": 2330672,
+      "fin_worse": 0.0303,
+      "loan": 0.0653,
+      "cons_cut": 0.0118,
+      "fies_any_r49_82": 0.2824
+    },
+    "No | food=No": {
+      "n": 6401,
+      "mean_real_y": 2264659,
+      "fin_worse": 0.0171,
+      "loan": 0.0114,
+      "cons_cut": 0.0096,
+      "fies_any_r49_82": 0.0689
+    },
+    "No | food=Yes": {
+      "n": 12224,
+      "mean_real_y": 2756324,
+      "fin_worse": 0.0259,
+      "loan": 0.0198,
+      "cons_cut": 0.0095,
+      "fies_any_r49_82": 0.1588
+    }
+  },
+  "early_r1_19_drawdown_audit": {
+    "r01_took_sav_w": 0.4015,
+    "r1_19_avg_took_sav_w": 0.2082,
+    "r30_42_avg_took_sav_w": 0.0158,
+    "r2_19_drawdown_transitions": 5202,
+    "r2_19_from_nosav_transitions": 1173,
+    "r2_19_share_from_nosav": 0.2255
+  },
+  "r57_to_r58_savings_break": {
+    "transitions": {
+      "Do not have any savings -> Do not have any savings": 751,
+      "Do not have any savings -> No": 37,
+      "Do not have any savings -> Yes": 197,
+      "No -> Do not have any savings": 91,
+      "No -> No": 358,
+      "No -> Yes": 47,
+      "Yes -> Yes": 3
+    },
+    "n_matched": 1484,
+    "total_to_Yes": 247,
+    "from_nosav_to_Yes": 197,
+    "share_from_nosav": 0.7976
+  },
+  "r77_to_r78_savings_break": {
+    "transitions": {
+      "Do not have any savings -> Do not have any savings": 679,
+      "Do not have any savings -> No": 140,
+      "Do not have any savings -> Yes": 109,
+      "No -> Do not have any savings": 109,
+      "No -> No": 364,
+      "No -> Yes": 72,
+      "Yes -> Do not have any savings": 6,
+      "Yes -> No": 17,
+      "Yes -> Yes": 10
+    },
+    "n_matched": 1506,
+    "total_to_Yes": 191,
+    "from_nosav_to_Yes": 109,
+    "share_from_nosav": 0.5707
+  },
+  "attrition": {
+    "transitions_below_97pct": [
+      {
+        "from": 1,
+        "to": 2,
+        "n_prev": 1504,
+        "n_cur": 1507,
+        "continuing": 1460,
+        "exits": 44,
+        "new_entries": 47,
+        "retention_rate": 0.9707,
+        "cont_share_of_cur": 0.9688
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "n_prev": 1507,
+        "n_cur": 1520,
+        "continuing": 1467,
+        "exits": 40,
+        "new_entries": 53,
+        "retention_rate": 0.9735,
+        "cont_share_of_cur": 0.9651
+      },
+      {
+        "from": 59,
+        "to": 60,
+        "n_prev": 1484,
+        "n_cur": 1451,
+        "continuing": 1423,
+        "exits": 61,
+        "new_entries": 28,
+        "retention_rate": 0.9589,
+        "cont_share_of_cur": 0.9807
+      },
+      {
+        "from": 71,
+        "to": 72,
+        "n_prev": 1357,
+        "n_cur": 1320,
+        "continuing": 1311,
+        "exits": 46,
+        "new_entries": 9,
+        "retention_rate": 0.9661,
+        "cont_share_of_cur": 0.9932
+      },
+      {
+        "from": 72,
+        "to": 73,
+        "n_prev": 1320,
+        "n_cur": 1289,
+        "continuing": 1279,
+        "exits": 41,
+        "new_entries": 10,
+        "retention_rate": 0.9689,
+        "cont_share_of_cur": 0.9922
+      },
+      {
+        "from": 75,
+        "to": 76,
+        "n_prev": 1275,
+        "n_cur": 1564,
+        "continuing": 1259,
+        "exits": 16,
+        "new_entries": 305,
+        "retention_rate": 0.9875,
+        "cont_share_of_cur": 0.805
+      }
+    ],
+    "covid_r19_to_r20": {
+      "from": 19,
+      "to": 20,
+      "n_prev": 1522,
+      "n_cur": 1521,
+      "continuing": 1514,
+      "exits": 8,
+      "new_entries": 7,
+      "retention_rate": 0.9947,
+      "cont_share_of_cur": 0.9954
+    },
+    "refresh_r75_to_r76": {
+      "from": 75,
+      "to": 76,
+      "n_prev": 1275,
+      "n_cur": 1564,
+      "continuing": 1259,
+      "exits": 16,
+      "new_entries": 305,
+      "retention_rate": 0.9875,
+      "cont_share_of_cur": 0.805
+    },
+    "one_month_exit_rate_all": {
+      "S": {
+        "rate": 0.0101,
+        "exits": 465,
+        "n": 46185
+      },
+      "M": {
+        "rate": 0.0105,
+        "exits": 575,
+        "n": 54940
+      },
+      "H": {
+        "rate": 0.0093,
+        "exits": 177,
+        "n": 19030
+      }
+    },
+    "one_month_exit_rate_r58_74": {
+      "S": {
+        "rate": 0.0192,
+        "exits": 163,
+        "n": 8479
+      },
+      "M": {
+        "rate": 0.0168,
+        "exits": 220,
+        "n": 13092
+      },
+      "H": {
+        "rate": 0.0239,
+        "exits": 51,
+        "n": 2136
+      }
+    }
+  }
+}
